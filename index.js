@@ -1,23 +1,9 @@
-const characters = [
-    {
-        name:"Spike",
-        show: "Cowboy Bepop",
-    },
-    {
-        name:"L",
-        show:"Death Note",
-    },
-    {
-        name:"Goku",
-        show:"Drangonball Z",
-    },
-    {
-        name:"Gon",
-        show:"Hunter X Hunter"
-    }
-]
+const moduleStuff = require('./anime.module');
 
-for ( person of characters) {
+const characterList = moduleStuff.characters;
+
+
+for ( person of characterList) {
     console.log(person.name + ' is from ' + person.show);
     
 }
