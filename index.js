@@ -8,7 +8,7 @@ const characters = [
         show:"Death Note",
     },
     {
-        name:"oku",
+        name:"Goku",
         show:"Drangonball Z",
     },
     {
